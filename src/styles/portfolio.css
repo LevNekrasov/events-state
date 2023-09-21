@@ -1,0 +1,47 @@
+.portfolio {
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.project-list {
+  column-count: 3;
+  column-gap: 1.5em;
+}
+
+.project-list_item {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.project-list_item img {
+  display: block;
+  width: 100%;
+}
+
+.toolbar {
+  margin: 22px 0;
+}
+
+.toolbar > .btn:not(:last-child) {
+  margin-right: 6px;
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  padding: 10px 25px;
+  border: 1.5px solid black;
+  font-size: 16px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+  z-index: 1;
+}
+
+.btn:hover,
+.btn.selected {
+  color: white;
+  background: black;
+}
